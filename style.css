@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.center{
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+.header{
+    background: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+
+.link_left{
+    display: flex;
+    width: 111px;
+    gap: 41px;
+    align-items: center;
+    flex-wrap: nowrap;
+   
+}
+
+.link_logo_1{
+    padding-top: 18px;
+    padding-bottom: 19px;
+
+}
+
+.link_logo_2{
+    padding-top: 28.21px;
+    padding-bottom: 20px;
+    
+}
+
+.link_right{
+    padding-top: 26px;
+    padding-bottom: 20px;
+    margin-left: 231px;
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.header_content{
+    background: #F1E4E6;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+   
+}
+
+.header_content_2{
+    padding-right: 60px;
+}
+
+.top_menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 65px;
+    margin-bottom: 96px;
+}
+
+
+.top_content_index{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 48px;
+
+}
+.info{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 48px;
+
+}
+
+.title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.title_top{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    padding-top: 25px;
+    padding-bottom: 16px;
+}
+
+.text_top{
+    width: 314px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-bottom: 18px;
+}
+
+.price{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+
+}
+
+.button_top{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    }
